@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="reverse_string">REVERSE</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="action_favorite">favourite</string>
+    <string name="action_settings">settings</string>
+    <string name="action_refresh">refresh</string>
+    <string name="item_1">Item 1</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_3">Item 3</string>
+</resources>
