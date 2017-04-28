@@ -1,4 +1,4 @@
-package com.example.rahul.helloworld;
+package com.example.rahul.goodbyeworld;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

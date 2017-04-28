@@ -1,22 +1,19 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context="com.example.rahul.helloworld.ItemOneFragment">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rahul.goodbyeworld.ItemOneFragment">
 
-<ImageView
-    android:id="@+id/truiton_image"
-    android:layout_width="300dp"
-    android:layout_height="300dp"
-    android:layout_centerInParent="true"
-    />
-
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/truiton_image"
-    android:layout_centerHorizontal="true"
-    android:text="Fragment 1"
-    android:textSize="30sp"/>
-
-</RelativeLayout>
+    <ToggleButton
+        android:text="P"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/toggleButton3"
+        android:background="@drawable/style_toggle_button"
+        android:checked="false"
+        android:textOff="P"
+        android:textOn="P"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
